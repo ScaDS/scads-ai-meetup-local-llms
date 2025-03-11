@@ -46,12 +46,15 @@ Doppelklicke auf `ollama-cmd.bat`, um eine Terminal-Sitzung mit Ollama zu starte
 #### **Option 2: API-Nutzung testen**
 Doppelklicke auf `ollama-api.bat`, um:
 ✅ Eine Eingabeaufforderung zur API-Nutzung zu öffnen
+
 ✅ Die IP des Ollama-Servers abzufragen
+
 ✅ Eine Frage an die API zu senden
 
 #### **Option 3: Gradio UI starten**
 Doppelklicke auf `start-ollama-chatui.bat`, um:
 ✅ **Die benötigten Abhängigkeiten zu installieren**
+
 ✅ **Den Gradio-Chatbot zu starten**
 
 Alternativ kannst du alles manuell ausführen:
