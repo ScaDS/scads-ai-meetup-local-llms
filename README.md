@@ -48,9 +48,7 @@ Doppelklicke auf `ollama-api.bat`, um:
 
 ✅ Eine Eingabeaufforderung zur API-Nutzung zu öffnen
 
-✅ Die IP des Ollama-Servers abzufragen
-
-✅ Eine Frage an die API zu senden
+✅ Eine Frage an die Ollama API und ein LLM zu senden
 
 #### **Option 3: Gradio UI starten**
 Doppelklicke auf `start-ollama-chatui.bat`, um:
