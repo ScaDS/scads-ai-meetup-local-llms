@@ -4,8 +4,8 @@ import json
 import time
 
 # Standardwerte für die API
-DEFAULT_IP = "http://127.0.0.1:11434"
-DEFAULT_MODEL = "llama3.2:1b"
+DEFAULT_IP = "http://192.168.0.2:11434"
+DEFAULT_MODEL = "qwen2.5:14b"
 
 # Funktion für die Ollama API (gibt nur den fertigen Text zurück!)
 def respond(message, chat_history, ip, model):
@@ -42,8 +42,8 @@ with gr.Blocks() as demo:
 
     # IP & Modell-Felder
     with gr.Row():
-        ip_input = gr.Textbox(value=DEFAULT_IP, label="Ollama API IP", interactive=True)
-        model_input = gr.Textbox(value=DEFAULT_MODEL, label="Modell wählen", interactive=True)
+        ip_input = gr.Textbox(value=DEFAULT_IP, label="Ollama API IP")
+        model_input = gr.Textbox(value=DEFAULT_MODEL, label="Modell wählen")
 
     chatbot = gr.Chatbot(type="messages")
     msg = gr.Textbox(label="Deine Nachricht")
